@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!-- Olá! Eu sou um comentário. Sirvo para deixar recados no código, como um post-it! A tag doctype aqui em cima indica o
+tipo de documento.-->
+
+   <html>
+<head>
+    <!--Olá, eu sou a "cabeça" do documento! O usuário final não me verá,
+        mas eu contenho partes importantes para o funcionamento adequado do site-->
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <!--A tag meta define o conjunto de caracteres que será usado-->
+
+<title>Aplicação Web</title>
+<!-- E aqui definimos o titulo da página-->
+
+</head>
+
+    <body>
+<header>
+    <section class="menuPrincipal">
+        <ul class="menu">
+            <li><a href="#front">O que é <i>Front-End</a></li>
+            <li><a href="#htm">O que é HTML</a></li>
+            <li><a href="#formate">formatação</a></li>
+        </ul>
+    </section>
+    </header>
+<section class="container">
+    <a name="front">
+        <div class ="front row">
+            <div class="col-8">
+<h1>
+    O que é <i class="darkeffct">Front-end?</i>
+</h1>
+<blockquote>
+   <p>"O front-end é onde encontramos a "cara" de um site ou aplicativo,
+com design, interface de navegação e ferramentas de interação com o usuário,
+como áreas de buscas e formulários."</p>
+<cite>Definição do site "Digital House"</cite>
+</blockquote>
+        </div>
+        <div class="icone col-4">
+<img src="Imagens/web-design.svg">
+        </div>
+</div>
+</a>
+</section>
+<a name="htm">
+<div class="htm row">
+    <div class="icone col-5">
+<div class="container">
+    <div class="row">
+        <img src="Imagens/html.svg">
+    </div>
+    </div>
+</div>
+<div class="textHt col-7">
+<div class="container">
+    <h1>
+        Conceito de <i class="darkeffct">HTML</i>
+    </h1>
+    <blockquote>
+       <p>"HTML é a sigla para Hyper Text Markup Language, ou seja, linguagem de marcação de hipertexto.
+        Ela é utilizada como marcação para desenvolver páginas e documentos eletrônicos para a internet.
+        Isso significa que ela garante a formatação ideal para sites."</p>
+    <cite>Definição do site "goDaddy"</cite>
+    </blockquote>
+</div>
+                </div>
+</div>
+</a>
+<a name="formate"> 
+    <div class="formate container">
+        <h1>
+            testando tags de <i class="darkeffct">formatação</i>
+        </h1>
+        <p>
+            Vamos testar algumas tags HTML?
+        </p>
+        <label>
+            <p>Escreva seu nome:</p>
+        <input type="text" class="form-control" name="nome" id="nome" maxlength="40">
+    </label>
+
+    <label>
+        <button name="negrito" id="negrito" value="negrito" class="btn btn-primary">
+            negrito
+        </button>
+        <button name="italico" id="italico" value="italico" class="btn btn-warning">
+            itálico
+        </button>
+        <button name="sublinhado" id="sublinhado" value="sublinhado" class="btn btn-danger">
+            sublinhado
+        </button>
+        <button name="pequeno" id="pequeno" value="pequeno" class="btn btn-success">
+            pequeno
+        </button>
+        <button name="riscado" id="riscado" value="riscado" class="btn btn-info">
+            riscado
+        </button>
+    </label>
+    <div>
+    <h2 id="nomeUser" class="nomeUser">
+"Seu nome aqui..."
+    </h2>
+</div>
+    </div>
+</a>
+<script src="main.js" type="text/javascript"></script>
+    </body>
+   </html>

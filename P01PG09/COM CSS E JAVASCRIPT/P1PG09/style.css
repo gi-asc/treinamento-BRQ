@@ -1,0 +1,111 @@
+body{
+    font-family: 'Poppins';
+    color: #202731;
+}
+
+a, a:hover{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+div{
+    margin: 3% 0;
+}
+h1{
+    font-weight: 900;
+    margin: 4% auto;
+    text-transform:uppercase;
+}
+header{
+    background-color: #D90B1C;
+    color: white;
+}
+.menu {
+text-align: center;
+padding: 2%;
+box-shadow: 0 6px 6px #dcdcdc;
+}
+.menu li{
+    display: inline-block;
+    padding: 0 2%;
+}
+blockquote{
+    font-style: italic;
+}
+.darkeffct{
+    color: #000;
+}
+cite{
+    float: right;
+    text-align: right;
+    opacity: 1 !important;
+    font-weight: 500;
+    color: #000;
+}
+img {
+    max-width: 100%;
+}
+.front img{
+    text-align:center;
+    max-height: 250px;
+    padding: auto 15%;
+    filter: invert(7%) sepia(97%) saturate(6862%) hue-rotate(352deg) brightness(112%) contrast(94%);
+    opacity: .6;
+}
+.front img:hover{
+opacity: 1;
+}
+.textHt{
+    margin-top: 2%;
+    background-color: #D90B1C;
+    height: 60%;
+    color: white !important;
+    box-shadow: 0 6px 6px #dcdcdc;
+    border-radius: .7em;
+    text-align: right;
+}
+.textHt h1 {
+margin-right: 14%;
+}
+
+.textHt blockquote {
+    text-align: right;
+    color: white;
+    margin: 0 15% 14% 0;
+}
+
+.textHt cite{
+    color: white;
+    font-weight: 700;
+}
+
+.textHt .darkeffct {
+    color: #FAF566
+}
+
+.htm img {
+    opacity: .6;
+    max-height: 350px;
+ padding: auto 15%;
+text-align: center;
+    filter: invert(11%) sepia(40%) saturate(402%) hue-rotate(175deg) brightness(98%) contrast(91%);
+}
+
+.htm img:hover{
+    opacity: 1;
+}
+.nomeUser {
+    opacity: .7;
+    font-style: normal;
+}
+.formate {
+    border-radius: .7em;
+    background-color: #f2f2f2;
+    border: solid .4px #dcdcdc;
+    padding: 3% 5%;
+    text-align: center;
+}
+label {
+    margin: 2%;
+    display: block;
+}
