@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    padding: 25% 0;
+}
+
+.btn{
+    width: 20%;
+    margin: 0 auto 2% auto;
+}
+
+.col-4{
+    opacity:.7;
+}
+
+.col-4:hover{
+    opacity: 1;
+}
+
+.score {
+    float: right;
+    margin: 2%;
+}
+
+h3{
+    line-height: .5;
+    font-size: 3em;
+}
+
+.pontFinal {
+    float: none;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.finalGame {
+    width: 0;
+    display: none;
+}
+
+.pontFinal h6 {
+    font-size: 4em;
+    margin: 5% auto;
+}
+
+.pontFinal h3 {
+    font-size: 10em;
+    font-weight: bold;
+    margin-top: -2%;
+}
