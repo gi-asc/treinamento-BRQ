@@ -1,0 +1,98 @@
+body {
+    background: #000628;
+background: -moz-linear-gradient(-45deg, #000628 0%, #1e0a33 100%, #0f0726 100%);
+}
+.logoInicio img{
+    margin-top: -100%;
+    position: absolute;
+    width: 70%;
+    text-align: center;
+}
+.logoInicio{
+    margin: 3% -10%;
+    width: 70%;
+    position: relative;
+    text-align: center;
+}
+.directs {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    position: relative;
+ margin: 2%;
+ width: 20%;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.direction{
+    margin: 27% 5%;
+    text-align: center;
+    position: absolute;
+    display: inline;
+    width: 70%;
+    opacity: 0;
+}
+
+.directsCompleto{
+    opacity:1;
+}
+
+.persons {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding: auto;
+    width: 80%;
+}
+
+.col-4{
+    width: 30%;
+    margin: 1%;
+}
+
+.cabess {
+    font-size: 5em;
+    margin: 3% auto;
+}
+
+.personagensFt{
+    width: 50%;
+}
+.all {
+    width:0;
+}
+.allAtivado {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 1000;
+position: absolute;
+}
+
+li {
+    display: inline;
+    padding: 2%;
+}
+footer{
+    margin-top: 38%;
+    position: absolute;
+    text-align: center;
+}
+footer ul, footer h3{
+    margin-left: 10%;
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color:rgba(240, 240, 240, .9);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+a:hover{
+    font-size: 1.2em;
+    color:#ffc107;
+}

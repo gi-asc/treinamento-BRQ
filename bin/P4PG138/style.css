@@ -1,0 +1,31 @@
+form {
+    margin: 5% auto;
+  width: 80%;
+}
+h1{
+    padding-top: 5%;
+    text-align: center;
+}
+input {
+    width: 30%;
+}
+.container{
+    text-align: center;
+}
+.btn {
+    margin: 19%;
+}
+
+.funcionariosTotais input {
+    margin: 2%;
+    padding: 5;
+    display: inline-block;
+    width: 18%;
+}
+
+.funcionariosTotais {
+    text-align: left;
+}
+.col-1{
+    margin: 2%;
+}
